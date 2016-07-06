@@ -27,7 +27,7 @@ public class UserController {
 		user.setNickname("liuwish");
 		user.setState(3);
 		userServiceImpl.insertUser(user);
-		return   "index";
+		return    "index";
 	}
 	
 }
